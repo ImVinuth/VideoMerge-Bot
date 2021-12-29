@@ -51,7 +51,10 @@ async def start_handler(bot: Client, m: Message):
     if Fsub == 400:
         return
     await m.reply_text(
-        text=Config.START_TEXT,
+        text="Hi Unkil, I am Video Merge Bot!
+I can Merge Multiple Videos in One Video. Video Formats should be same.
+
+Made by @Vinuth_BOTs",
         disable_web_page_preview=True,
         quote=True,
         reply_markup=InlineKeyboardMarkup(
